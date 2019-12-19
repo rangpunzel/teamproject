@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class DisplayMenu {
     PrintStream printStream = new PrintStream(System.out);
     BookRental bookRental=new BookRental();
+    
     public void startMenu() {
         printStream.println("1.도서등록");
         printStream.println("2.도서검색");
@@ -23,7 +24,7 @@ public class DisplayMenu {
         while (true) {
             selectedNum = scanner.nextLine();
             if (selectedNum.equals("2")) {
-                bookRental.a();
+            	bookRental.a();
             }
 
 

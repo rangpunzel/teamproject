@@ -12,6 +12,8 @@ public class BookRentalSystemMain {
         
         BookSearch.a();
     }
+    
+
 
     private static void initData() {
         BookVO[] bookVO = new BookVO[5];
