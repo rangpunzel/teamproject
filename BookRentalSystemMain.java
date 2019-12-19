@@ -9,6 +9,8 @@ import java.util.Arrays;
 public class BookRentalSystemMain {
     public static void main(String[] args) {
         initData();
+        
+        BookSearch.a();
     }
 
     private static void initData() {

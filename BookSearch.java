@@ -1,5 +1,8 @@
 package teamproject;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class BookSearch {
     /*
     *책을 잦아주는데 필요한 메서들 구현하시면됩니다.
@@ -9,7 +12,15 @@ public class BookSearch {
     *세번쨰 값이 있으면 값이 있다고 말을해주고 없으면 없다고 
     * 
     * */
-    public void a(){
+    public static void a(){
+    	Scanner s = new Scanner(System.in);
+    	System.out.println("검색어를 입력해주세요>");
+    	String userSearch = s.nextLine();
+    	
+    	
+    	
+    	
 
     }
+    
 }
